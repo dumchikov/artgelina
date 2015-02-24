@@ -191,6 +191,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+  <Content Include="images\геля.png" />
     <Content Include="access_token.txt" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\ie\backgroundsize.min.htc" />
