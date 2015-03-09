@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ArtgelinaModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <HeaderImage>http://coverhdwallpapers.com/wp-content/uploads/2014/11/cool-abstract-art-backgrounds-hd.jpg</HeaderImage>
+  <HeaderImage>http://cs1694.vk.me/u6135197/96642270/x_2907d325.jpg</HeaderImage>
+  <HeaderTitle>Hello, I'm Angelina! </HeaderTitle>
+  <HeaderText>If you want that I draw you or something else click below :)</HeaderText>
   <Avatar>https://instagramimages-a.akamaihd.net/profiles/profile_491476900_75sq_1397493417.jpg</Avatar>
   <PortfolioText>portfolio text</PortfolioText>
   <AboutMeImage>Images/gelia.png</AboutMeImage>
   <AboutMeText>Artist &amp; designer based in Ukraine, Kharkov. Oil paint, t-shirt design, vector art.</AboutMeText>
-  <ContactText>sexy girlasdasd</ContactText>
+  <ContactText>sexy girl</ContactText>
 </ArtgelinaModel>

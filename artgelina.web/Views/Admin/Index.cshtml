@@ -16,6 +16,17 @@
                 @Html.LabelFor(x => x.HeaderImage)
                 @Html.TextBoxFor(x => x.HeaderImage, new { @class = "form-control" })
             </div>
+
+            <div class="form-group">
+                @Html.LabelFor(x => x.HeaderTitle)
+                @Html.TextBoxFor(x => x.HeaderTitle, new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(x => x.HeaderText)
+                @Html.TextBoxFor(x => x.HeaderText, new { @class = "form-control" })
+            </div>
+
             <div class="form-group">
                 @Html.LabelFor(x => x.Avatar)
                 @Html.TextBoxFor(x => x.Avatar, new { @class = "form-control" })

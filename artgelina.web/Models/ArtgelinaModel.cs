@@ -12,6 +12,12 @@ namespace artgelina.web.Models
         [Display(Name = "Header image link")]
         public string HeaderImage { get; set; }
 
+        [Display(Name = "Header title")]
+        public string HeaderTitle { get; set; }
+
+        [Display(Name = "Header text")]
+        public string HeaderText { get; set; }
+
         [Display(Name = "Avatar")]
         public string Avatar { get; set; }
 

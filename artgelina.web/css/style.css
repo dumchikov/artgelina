@@ -733,7 +733,7 @@
 			#main > section.dark
 			{
 				color: #ddd;
-				color: rgba(255,255,255,0.75);
+				color: rgba(255,255,255,1/*can be 0.75*/);
 			}
 
 				#main > section.dark h2,
@@ -767,7 +767,6 @@
 			#main > section.one
 			{
 				background-color: #81918E;
-				background-image: url('http://coverhdwallpapers.com/wp-content/uploads/2014/11/cool-abstract-art-backgrounds-hd.jpg');
 			}
 
 			#main > section.two
