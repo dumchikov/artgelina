@@ -111,12 +111,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="config.xml">
+    <Content Include="App_Data\config.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="css\bootstrap.css" />
     <Content Include="images\gelia.png" />
-    <Content Include="access_token.txt" />
+    <Content Include="App_Data\access_token.txt" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\ie\backgroundsize.min.htc" />
     <Content Include="css\ie\html5shiv.js" />
@@ -156,9 +156,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>

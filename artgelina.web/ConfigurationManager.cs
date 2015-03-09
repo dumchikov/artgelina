@@ -13,7 +13,7 @@ namespace artgelina.web
 
         static ConfigurationManager()
         {
-            ConfigFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.xml");
+            ConfigFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "App_Data", "config.xml");
             Serializer = new XmlSerializer(typeof(ArtgelinaModel));
         }
 
