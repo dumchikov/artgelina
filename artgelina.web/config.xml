@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArtgelinaModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HeaderImage>http://coverhdwallpapers.com/wp-content/uploads/2014/11/cool-abstract-art-backgrounds-hd.jpg</HeaderImage>
+  <Avatar>https://instagramimages-a.akamaihd.net/profiles/profile_491476900_75sq_1397493417.jpg</Avatar>
+  <PortfolioText>portfolio text</PortfolioText>
+  <AboutMeImage>Images/gelia.png</AboutMeImage>
+  <AboutMeText>Artist &amp; designer based in Ukraine, Kharkov. Oil paint, t-shirt design, vector art.</AboutMeText>
+  <ContactText>sexy girl</ContactText>
+</ArtgelinaModel>

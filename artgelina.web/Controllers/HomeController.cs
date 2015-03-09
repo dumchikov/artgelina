@@ -1,10 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Mvc;
+using System.Xml.Serialization;
 using Newtonsoft.Json;
+using artgelina.web.Models;
 
 namespace artgelina.web.Controllers
 {
@@ -12,13 +16,16 @@ namespace artgelina.web.Controllers
     {
         public ActionResult Index()
         {
-            const string url = "https://api.instagram.com/v1/users/491476900/media/recent?access_token=258106817.3e16bcf.e954382bdeec4c7bb3fe239d76ba1fe6";
+                        const string url = "https://api.instagram.com/v1/users/491476900/media/recent?access_token=258106817.3e16bcf.e954382bdeec4c7bb3fe239d76ba1fe6";
             var webClient = new WebClient();
             var response = webClient.DownloadString(url);
             var responseObj = JsonConvert.DeserializeObject<dynamic>(response);
             var images = ((IEnumerable<dynamic>)responseObj.data)
-                .Select(x => x.images).Select(i => i.standard_resolution.url);
-            return View(images);
+                .Select(x => x.images)
+                .Select(i => i.standard_resolution.url);
+            var model = ConfigurationManager.GetConfig();
+            model.Images = images;
+            return View(model);
         }
 
 
