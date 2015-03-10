@@ -10,49 +10,58 @@
 </head>
 <body>
     <div class="container">
-        <h1>Artgelina's settings</h1>
-        <form style="margin: 30px 0; width: 50%;" action="@Url.Action("SaveSettings")" method="POST">
-            <div class="form-group">
-                @Html.LabelFor(x => x.HeaderImage)
-                @Html.TextBoxFor(x => x.HeaderImage, new { @class = "form-control" })
-            </div>
+        <div class="row">
+            <div class="col-xs-3 col-md-3"></div>
+            <div class="col-xs-6 col-md-6">
+                <h1>Artgelina's settings</h1>
+                <form style="margin: 30px 0;" action="@Url.Action("SaveSettings")" method="POST">
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.HeaderImage)
+                        @Html.TextBoxFor(x => x.HeaderImage, new { @class = "form-control" })
+                    </div>
 
-            <div class="form-group">
-                @Html.LabelFor(x => x.HeaderTitle)
-                @Html.TextBoxFor(x => x.HeaderTitle, new { @class = "form-control" })
-            </div>
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.HeaderTitle)
+                        @Html.TextBoxFor(x => x.HeaderTitle, new { @class = "form-control" })
+                    </div>
 
-            <div class="form-group">
-                @Html.LabelFor(x => x.HeaderText)
-                @Html.TextBoxFor(x => x.HeaderText, new { @class = "form-control" })
-            </div>
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.HeaderText)
+                        @Html.TextBoxFor(x => x.HeaderText, new { @class = "form-control" })
+                    </div>
 
-            <div class="form-group">
-                @Html.LabelFor(x => x.Avatar)
-                @Html.TextBoxFor(x => x.Avatar, new { @class = "form-control" })
-            </div>
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.Avatar)
+                        @Html.TextBoxFor(x => x.Avatar, new { @class = "form-control" })
+                    </div>
 
-            <div class="form-group">
-                @Html.LabelFor(x => x.PortfolioText)
-                @Html.TextAreaFor(x => x.PortfolioText, new { @class = "form-control", style = "height: 150px;" })
-            </div>
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.PortfolioText)
+                        @Html.TextAreaFor(x => x.PortfolioText, new { @class = "form-control", style = "height: 150px;" })
+                    </div>
 
-            <div class="form-group">
-                @Html.LabelFor(x => x.AboutMeText)
-                @Html.TextAreaFor(x => x.AboutMeText, new { @class = "form-control", style = "height: 150px;" })
-            </div>
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.AboutMeText)
+                        @Html.TextAreaFor(x => x.AboutMeText, new { @class = "form-control", style = "height: 150px;" })
+                    </div>
 
-            <div class="form-group">
-                @Html.LabelFor(x => x.AboutMeImage)
-                @Html.TextBoxFor(x => x.AboutMeImage, new { @class = "form-control" })
-            </div>
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.AboutMeImage)
+                        @Html.TextBoxFor(x => x.AboutMeImage, new { @class = "form-control" })
+                    </div>
 
-            <div class="form-group">
-                @Html.LabelFor(x => x.ContactText)
-                @Html.TextAreaFor(x => x.ContactText, new { @class = "form-control", style = "height: 150px;" })
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.ContactText)
+                        @Html.TextAreaFor(x => x.ContactText, new { @class = "form-control", style = "height: 150px;" })
+                    </div>
+                    <div style="text-align: right;">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <a href="~/" class="btn btn-default">Cancel</a>
+                    </div>
+                </form>
             </div>
-            <button type="submit" class="btn btn-primary">Save</button>
-        </form>
+            <div class="col-xs-3 col-md-3"></div>
+        </div>
     </div>
 </body>
 </html>
